@@ -30,7 +30,7 @@ func EquirectangularApproxDistance(lat1, long1, lat2, long2 float64) float64 {
 }
 
 // HaversineDistance computes the distance between two points on Earth using
-// EquirectangularApprox formula.
+// HaversineDistance formula.
 // More details: https://www.movable-type.co.uk/scripts/latlong.html
 func HaversineDistance(lat1, long1, lat2, long2 float64) float64 {
 	φ1 := toRadians(lat1)
